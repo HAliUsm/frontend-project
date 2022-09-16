@@ -1,0 +1,66 @@
+body{
+  display: grid;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+
+ #container {
+    display: grid; 
+    grid-template-columns: 30% 70%;
+    background-color: rgb(197, 146, 245);
+    height: 100%;
+    width: 100%;
+    background-image: url("pexels-steve-johnson-1266808.jpg");
+}    
+
+#genreTab{
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+display: grid;
+grid-auto-rows: 10%;
+opacity: 90%;;
+}
+
+
+span{
+    display: grid;
+    align-content: center;
+    border: solid;
+    border-radius: 3%;
+    border-color: blueviolet;
+    background-color: rgb(77, 41, 111);
+    opacity: 90%;
+}
+
+.mainText {
+font-size: xx-large;
+font-style: oblique;
+text-align: center;
+
+}
+
+.subText{
+    font-style: oblique;
+    text-align: center;
+}
+
+#quotesHere{
+    display: grid;
+    grid-template-rows: 50%  15%  ;
+
+}
+
+/* button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+  } */
